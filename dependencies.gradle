@@ -1,0 +1,18 @@
+ext {
+    springVersion = "4.1.6.RELEASE"
+    springBootVersion = '1.5.4.RELEASE'
+    springCloudVersion = 'Dalston.SR1'
+
+    libs = [
+            common             : [
+                    "org.apache.commons:commons-lang3:3.3.2",
+                    "org.slf4j:slf4j-api:1.7.12"
+            ],
+            springBoot         : [
+                    "org.springframework.boot:spring-boot-starter-web:${springBootVersion}",
+            ]
+    ]
+
+}
+
+

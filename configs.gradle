@@ -1,0 +1,12 @@
+ext {
+
+    springBootVersion = '1.5.4.RELEASE'
+
+    //nexus私服仓库地址
+    nexusRepository = 'http://192.168.88.200:8081/nexus/content/repositories/matrix-tl/'
+
+    // matrix工程相关依赖的版本
+    matrixVersion = 'v04'
+
+    springCloudVersion = 'Dalston.SR1'
+}
